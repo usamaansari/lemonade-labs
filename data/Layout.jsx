@@ -18,11 +18,5 @@ export default [
         type: 'column',
         numOfCol: 3,
         icon: Columns3
-    },
-    {
-        label: '4 Column',
-        type: 'column',
-        numOfCol: 4,
-        icon: Columns4
     }
 ]

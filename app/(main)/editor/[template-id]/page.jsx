@@ -11,9 +11,11 @@ const Editor = () => {
   return (
     <div>
       <EditorHeader viewHTMLCode={(v)=>setViewHTMLCode(v)}/>
-      <div className='grid grid-cols-5'>
+      <div className='grid grid-cols-6'>
+       
         <ElementsSideBar />
-        <div className='col-span-3 bg-gray-100'>
+       
+        <div className='col-span-4 bg-gray-100'>
           <Canvas viewHTMLCode={viewHTMLCode} closeDialog={()=>setViewHTMLCode(false)}/>
         </div>
         <Settings />

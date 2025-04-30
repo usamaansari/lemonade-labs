@@ -53,7 +53,7 @@ viewHTMLCode&&GetHTMLCode()
     }
   return (
     <div className='mt-20 flex justify-center'>
-        <div className={`w-full bg-white p-6 ${screenSize == 'desktop' ? 'max-w-2xl' : 'max-w-md'}
+        <div className={`w-full bg-white p-6 ${screenSize == 'desktop' ? 'max-w-5xl' : 'max-w-md'}
         ${dragOver && 'bg-purple-100 p-4'}`}
         onDragOver={onDragOver}
         onDrop={()=> onDropHandle()}

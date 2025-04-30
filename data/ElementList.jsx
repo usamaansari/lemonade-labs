@@ -1,6 +1,6 @@
 
 
-import { Columns2, Facebook, Frame, Framer, Image, Link2, PanelTop, Projector, RectangleEllipsis, SquareSplitVertical, Text, TextSelectionIcon, Twitter, Video } from "lucide-react";
+import { Columns2, Facebook, Frame, Framer, Image, Link2, PanelTop, Projector, RectangleEllipsis, Sparkle, Sparkles, SquareSplitVertical, Text, TextSelectionIcon, Twitter, Video } from "lucide-react";
 
 
 export default [
@@ -95,9 +95,9 @@ export default [
         }
     },
     {
-        icon: Frame,
+        icon: Sparkles,
         type: 'Logo',
-        label: 'Logo',
+        label: 'Sticker',
         imageUrl: "/LemonadeLogo-NoBG.png",
         alt: 'logo',
         url: '#',
@@ -115,6 +115,8 @@ export default [
             width: '100%'
         }
     },
+
+  /*
     {
         icon: PanelTop,
         type: 'LogoHeader',
@@ -136,6 +138,7 @@ export default [
             width: '100%'
         }
     },
+
     {
         icon: SquareSplitVertical,
         type: 'Divider',
@@ -147,6 +150,7 @@ export default [
             width: '100%'
         }
     },
+    */
     {
         type: 'SocialIcons',
         icon: Twitter,
