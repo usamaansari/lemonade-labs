@@ -4,6 +4,7 @@ import { useDragDropLayoutElement, useScreenSize, useWebTemplate } from '@/app/l
 import React, { useEffect, useRef, useState } from 'react'
 import ColumnLayout from '../layoutElements/ColumnLayout';
 import ViewHtmlDialog from './ViewHtmlDialog';
+import LemonBottomRight from './LemonBottomRight';
 
 const Canvas = ({viewHTMLCode, closeDialog}) => {
   const htmlRef = useRef();
@@ -67,9 +68,14 @@ viewHTMLCode&&GetHTMLCode()
             )):
            <h2 className='p-4 text-center bg-gray-100 border border-dashed'>Add Layout Here</h2>
         }
+         
         </div>
+       <LemonBottomRight imageUrl="/LemonChat.png" size={120} />
         <ViewHtmlDialog openDialog= {viewHTMLCode} htmlCode={htmlCode} closeDialog={closeDialog}/>
+      
+
     </div>
+    
   )
 }
 
