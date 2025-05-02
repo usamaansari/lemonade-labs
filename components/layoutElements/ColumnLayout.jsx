@@ -11,6 +11,7 @@ import SocialIconsComponent from "../custom/elementComponents/SocialIconsCompone
 import { SelectItem } from "../ui/select";
 import { ArrowDown, ArrowUp, Trash } from "lucide-react";
 import VideoComponent from "../custom/elementComponents/VideoComponent";
+import AudioComponent from "../custom/elementComponents/AudioComponent";
 
 const ColumnLayout = ({ layout }) => {
   const [dragOver, setDragOver] = useState();
@@ -55,6 +56,10 @@ const ColumnLayout = ({ layout }) => {
         {
           return <VideoComponent {...element}/>
         }
+        else if (element?.type == 'Music')
+          {
+            return <AudioComponent {...element}/>
+          }
       else if (element?.type == 'Logo')
         {
           return <LogoComponent {...element}/>

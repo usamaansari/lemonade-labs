@@ -1,6 +1,6 @@
 
 
-import { Columns2, Facebook, Frame, Framer, Image, Link2, PanelTop, Projector, RectangleEllipsis, Sparkle, Sparkles, SquareSplitVertical, Text, TextSelectionIcon, Twitter, Video } from "lucide-react";
+import { Columns2, Facebook, Frame, Framer, Image, Link2, Music, PanelTop, Projector, RectangleEllipsis, Sparkle, Sparkles, SquareSplitVertical, Text, TextSelectionIcon, Twitter, Video } from "lucide-react";
 
 
 export default [
@@ -113,6 +113,29 @@ export default [
             alignItems: 'center',
             backgroundColor: '#fff',
             width: '100%'
+        }
+    },
+    {
+        icon: Music,
+        type: 'Music',
+        label: 'Music',
+        audioUrl: "/music.jpg",
+        alt: 'Music',
+        url: '/SharkDoDo.mp3',
+        style: {
+            backgroundColor: '#ffffff',
+            padding: '10px',
+            height: '50%',
+            width: '70%',
+            margin: '0px',
+            borderRadius: '0px'
+        },
+        outerStyle: {
+            display: 'flex',
+            width: '100%',
+            justifyContent: 'center',
+            alignItems: 'center',
+            backgroundColor: '#fff'
         }
     },
 
