@@ -7,7 +7,7 @@ const LemonBottomRight = ({ imageUrl, size = 100 }) => {
         right: 100,
         width: size,
         height: 'auto',
-        zIndex: -1,
+        zIndex: 10,
         borderRadius: '0 20px 0 20px',
       };
     // className="fixed bottom-5 right-5 z-50"
