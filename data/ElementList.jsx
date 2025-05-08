@@ -173,7 +173,7 @@ export default [
             width: '100%'
         }
     },
-    */
+   
     {
         type: 'SocialIcons',
         icon: Twitter,
@@ -218,6 +218,6 @@ export default [
 
 
 
-    }
+    } */
 
 ]

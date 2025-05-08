@@ -8,6 +8,8 @@ import { ScreenSizeContext } from "@/context/ScreenSizeContext";
 import { DragDropLayoutElement } from "@/context/DragDropLayoutElement";
 import { WebTemplateContext } from "@/context/WebTemplateContext";
 import { SelectedElementContext } from "@/context/SelectedElementContext";
+import { Toaster } from "@/components/ui/sonner"
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -92,6 +94,7 @@ useEffect(() => {
         </DragDropLayoutElement.Provider>
         </ScreenSizeContext.Provider>
         </UserDetailContext.Provider>
+         <Toaster />
       </body>
     </html>
   );

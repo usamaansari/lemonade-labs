@@ -1,6 +1,7 @@
 'use client';
 
 import Canvas from '@/components/custom/Canvas';
+import EditorFooter from '@/components/custom/EditorFooter';
 import EditorHeader from '@/components/custom/EditorHeader';
 import ElementsSideBar from '@/components/custom/ElementsSideBar';
 import Settings from '@/components/custom/Settings';
@@ -20,6 +21,10 @@ const Editor = () => {
         </div>
         <Settings />
 
+      </div>
+      <div className="sticky bottom-0 left-0 w-full bg-gray-200 text-white">
+      
+      <EditorFooter viewHTMLCode={(v)=>setViewHTMLCode(v)}/>
       </div>
     </div>
   )
